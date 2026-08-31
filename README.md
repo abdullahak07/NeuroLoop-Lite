@@ -21,6 +21,8 @@ I tested `TinyEEGCNN` on PhysioNet EEG Motor Movement/Imagery (EEGMMIDB), classi
 
 The classifier itself is modest, but confidence still ranks predictions usefully: accuracy increased as the controller became more selective. Temperature scaling reduced measured calibration error without changing prediction ranking.
 
+![EEG window and simulated decision](figures/example_decision.png)
+
 ![Risk-coverage](figures/risk_coverage.png)
 
 ## Run it
